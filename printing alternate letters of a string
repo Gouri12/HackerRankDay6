@@ -1,0 +1,13 @@
+n=int(input())
+for i in range (0,n):
+    s=raw_input()
+    k=''
+    r=''
+    for j in range(0,len(s)):
+        if(j%2==0):
+            k=k+s[j]
+        else:
+            r=r+s[j]
+    z=k.strip('')
+    y=r.strip('')
+    print z,y
